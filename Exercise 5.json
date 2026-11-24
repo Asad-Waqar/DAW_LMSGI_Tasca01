@@ -1,0 +1,58 @@
+{
+  "enquestes": [
+    {
+      "id": 1,
+      "titol": "Library Service Satisfaction Survey",
+      "activa": true,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "How would you rate the current opening hours?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "Insufficient",
+            "Adequate",
+            "Very good"
+          ]
+        },
+        {
+          "ordre": 2,
+          "text": "Which resource do you use most frequently?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "Study computers",
+            "Book loans",
+            "Group study rooms"
+          ]
+        },
+        {
+          "ordre": 3,
+          "text": "Do you have any suggestions to improve the service?",
+          "tipus": "text_lliure"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titol": "Training Workshop Preferences",
+      "activa": false,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "Which workshop format do you prefer?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "In-person in the classroom",
+            "Live online",
+            "Hybrid"
+          ]
+        },
+        {
+          "ordre": 2,
+          "text": "Briefly explain what topic you would like to cover next.",
+          "tipus": "text_lliure"
+        }
+      ]
+    }
+  ]
+}
